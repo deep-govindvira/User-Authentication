@@ -1,0 +1,50 @@
+* {
+    padding: 0.5%;
+    font-family: Verdana;
+    font-size:medium;
+    text-align: left;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+table{
+    border-collapse: collapse;
+}
+.SignUpCss {
+    font-size: x-large;
+    border: 1px solid gray;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border: 1px solid gray;
+  border-radius: 2px;
+  display: block;
+  font-size: 25px;
+  padding: 10px;
+  width: 90%;
+  background-color: white;
+  /* color: black; */
+  /* background-color: gray; */
+}
+.button {
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+background-color: green; 
+color: white; 
+border: 2px solid gray;
+}
+.button1:hover {
+    background-color: black;
+    color: white;
+}
